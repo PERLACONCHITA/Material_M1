@@ -1,0 +1,18 @@
+1. Popular Movies of IMDb
+ TMDb_updated.CSV
+https://www.kaggle.com/sankha1998/tmdb-top-10000-popular-movies-dataset
+
+2. Hollywood Most Profitable Stories
+HollywoodsMostProfitableStories.csv
+https://www.kaggle.com/brendan45774/hollywood-most-profitable-stories
+
+3.Top 100 Greatest Hollywood Actors of All Time
+Top 100 Greatest Hollywood Actors of All Time.csv
+https://www.kaggle.com/iamsouravbanerjee/top-100-greatest-hollywood-actors-of-all-time
+
+4. Hollywood Theatrical Market Synopsis 1995 to 2021
+https://www.kaggle.com/johnharshith/hollywood-theatrical-market-synopsis-1995-to-2021?select=TopGrossingRatings.csv
+
+5. Movie Industry
+movies.csv	
+https://www.kaggle.com/danielgrijalvas/movies
