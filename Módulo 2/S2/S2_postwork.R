@@ -5,6 +5,7 @@ t2 <- read.csv("SP1-1112.csv")
 t3<-read.csv("SP1-1213.csv")
 
 str(t1)
+getwd()
 
 library(dplyr)
 library(lubridate)

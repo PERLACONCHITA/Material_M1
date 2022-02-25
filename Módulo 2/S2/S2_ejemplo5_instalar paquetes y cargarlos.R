@@ -1,6 +1,7 @@
 # apply regresa un vector, arreglo o lista de valores
 # obtenidos al aplicar una función a los margenes
 #de un arreglo o matriz
+library(dplyr)
 
 X <- matrix(1:49, ncol = 7)
 X
@@ -31,14 +32,30 @@ dir()
 #con lapply leemos con una solo instruccion
 #los archivos descargados
 lista <- lapply(dir(), read.csv) # Guardamos los archivos en lista
+View(lista)
+head(lista)
+str(lista)
 
 #los elementos de lista son los archivos cvs leidos
 #y que estan como data frames
 lista <- lapply(lista, select, Date:FTR) # seleccionamos solo algunas columnas de cada data frame
-head(lista[[1]]); head(lista[[2]]); head(lista[[3]]); head(lista[[4]])
+View(lista)
+
+head(lista[[1]]); 
+head(lista[[2]]); 
+head(lista[[3]]); 
+head(lista[[4]])
 
 data <- do.call(rbind, lista)
+data$Date
+t1 <- mutate(data, Date = as.Date(Date, "%d/%m/%Y"))
+t1
+
+
 ?do.call
 ?rbind
 head(data)
 dim(data)
+View(data)
+
+head(t1)
